@@ -1,0 +1,41 @@
+{
+  "groups": [
+    {
+      "name": "jwt.config",
+      "type": "com.rest.microservices.core.property.JwtConfiguration",
+      "sourceType": "com.rest.microservices.core.property.JwtConfiguration"
+    },
+    {
+      "name": "jwt.config.header",
+      "type": "com.rest.microservices.core.property.JwtConfiguration$Header",
+      "sourceType": "com.rest.microservices.core.property.JwtConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jwt.config.expiration",
+      "type": "java.lang.Integer",
+      "sourceType": "com.rest.microservices.core.property.JwtConfiguration",
+      "defaultValue": 3600
+    },
+    {
+      "name": "jwt.config.login-url",
+      "type": "java.lang.String",
+      "sourceType": "com.rest.microservices.core.property.JwtConfiguration",
+      "defaultValue": "\/login\/**"
+    },
+    {
+      "name": "jwt.config.private-key",
+      "type": "java.lang.String",
+      "sourceType": "com.rest.microservices.core.property.JwtConfiguration",
+      "defaultValue": "Rnkr7BRVGFMvullcWEhZOmcGudX0W4i8"
+    },
+    {
+      "name": "jwt.config.type",
+      "type": "java.lang.String",
+      "sourceType": "com.rest.microservices.core.property.JwtConfiguration",
+      "defaultValue": "encrypted"
+    }
+  ],
+  "hints": []
+}
