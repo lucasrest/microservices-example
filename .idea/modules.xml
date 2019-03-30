@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/discovery/discovery.iml" filepath="$PROJECT_DIR$/discovery/discovery.iml" />
       <module fileurl="file://$PROJECT_DIR$/gateway-rest/gateway-rest.iml" filepath="$PROJECT_DIR$/gateway-rest/gateway-rest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/microservices.iml" filepath="$PROJECT_DIR$/.idea/microservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-queue/server-queue.iml" filepath="$PROJECT_DIR$/server-queue/server-queue.iml" />
       <module fileurl="file://$PROJECT_DIR$/token/token.iml" filepath="$PROJECT_DIR$/token/token.iml" />
     </modules>
   </component>

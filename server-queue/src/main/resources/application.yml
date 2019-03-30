@@ -1,0 +1,31 @@
+
+server:
+  port: 8181
+
+spring:
+  application:
+    name: queue-server
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+queue:
+  exchange-name: rest-server-course
+  routing-key: com.rest
+  course: course
+  period: period
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+    register-with-eureka: true
+
+logging:
+  level:
+    org: ERROR
+

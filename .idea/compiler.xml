@@ -11,6 +11,7 @@
         <module name="course" />
         <module name="discovery" />
         <module name="gateway-rest" />
+        <module name="server-queue" />
         <module name="token" />
       </profile>
     </annotationProcessing>
@@ -22,6 +23,7 @@
       <module name="gateway" target="11" />
       <module name="gateway-rest" target="11" />
       <module name="microservices" target="1.8" />
+      <module name="server-queue" target="11" />
       <module name="token" target="11" />
     </bytecodeTargetLevel>
   </component>
